@@ -5,6 +5,86 @@
 *{
     margin:0;
     padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --font-primary: "Georgia", serif;
+    --font-secundary: "Lucida Sans", serif;
+    --font-action: "Times New Roman", serif;
+}
+
+.hamburguer{
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 100;
+    right: 0.80rem;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.show-menu .hamburguer{
+    right: 16rem;
+}
+
+.line{
+    width: 100%;
+    height: 0.35rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.1rem 0.1rem 1px #000;
+    transition: transform 1s;
+
+}
+
+.show-menu #line1{
+    transform: rotate(46deg) translate(.0rem, .5rem);
+    border-radius: 1rem;
+}
+
+.show-menu #line2{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show-menu #line3{
+    transform: rotate(-44deg) translate(.2rem, -0.90rem);
+    border-radius: 1rem;
+}
+
+.hamburguer span{
+    position: absolute;
+    left: 3rem;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: #a044ff;
+    color: #ffff;
+    font-family: var(--font-action);
+    opacity: 0;
+}
+
+.hamburguer span::before{
+    content: "";
+    position: absolute;
+    border-radius: 2rem;
+    border-right: .5rem solid #a044ff;
+    border-top: .5rem solid transparent;
+    border-left: .5rem solid transparent;
+    border-bottom: .5rem solid transparent;
+    left: -1rem;
+}
+
+.show-menu .hamburguer:hover span{
+    opacity: 1;
+
 }
 
 header{
@@ -66,7 +146,7 @@ header{
 .banner h1{
     color: white;
     font-size: 5em;
-    font-family: "Georgia", serif;
+    font-family: var(--font-primary);
     font-weight: 200;
     text-shadow: .2rem .3rem 2px rgba(0, 0, 0, 0.4);
     margin-bottom: 0,5rem;
@@ -74,7 +154,7 @@ header{
     animation: moveBanner 1s 0.5s forwards;
 }
 .banner p{
-    font-family: "Lucida Sans", serif;
+    font-family: var(--font-secundary);
     color: white;
     font-size: 2rem;
     text-shadow: .2rem .2rem 2px rgba(0, 0, 0, 0.4);
@@ -84,7 +164,7 @@ header{
 }
 
 .banner button{
-    font-family: "Times New Roman", serif;
+    font-family: var(--font-action);
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
@@ -98,6 +178,67 @@ header{
     cursor: pointer;
     opacity: 0;
     animation: moveBanner 1s 0.9s forwards;
+}
+
+.sidebar{
+    width: 20rem;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top:0;
+    right:-20rem;
+    transition: all 1s;
+}
+
+.show-menu .sidebar{
+    right: 0;
+}
+
+.menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-item{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.menu-link{
+    font-family:var(--font-action);
+    font-size: 2rem;
+    color: #555;
+    transition: color 1s;
+}
+
+.menu-link:hover{
+    color: aquamarine;
+}
+
+.social-midia{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-midia i{
+    background-color: #750768;
+    color: #fff;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition:  background-color 1s;
+
+}
+.social-midia i:hover{
+background-color: #a044ff;
 }
 
 .banner button:hover{
