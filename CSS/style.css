@@ -254,3 +254,20 @@ background-color: #a044ff;
         opacity:1;
     }
 }
+
+.sobre{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: repeat(2, 4rem);
+}
+
+.sobre:nth-child(1){
+    grid-column: 1 / 6;
+    grid-row: 1 / 5;
+}
+
+.sessao-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
