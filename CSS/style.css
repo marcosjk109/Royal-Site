@@ -271,3 +271,7 @@ background-color: #a044ff;
     align-items: center;
     justify-content: center;
 }
+
+.sessao-header h1{
+    font-family: serif;
+}
