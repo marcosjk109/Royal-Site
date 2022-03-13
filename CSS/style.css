@@ -308,3 +308,8 @@ background-color: #a044ff;
         opacity: 0;
         animation: img 1s 0.8s forwards;
 }
+
+.Quadro01 img{
+    width: 25%;
+}
+
