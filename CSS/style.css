@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+header .global-page-container{
+    text-align: center;
+}
+
 :root{
     --font-primary: "Georgia", serif;
     --font-secundary: "Lucida Sans", serif;
@@ -308,3 +312,63 @@ background-color: #a044ff;
         opacity: 0;
         animation: img 1s 0.8s forwards;
 }
+
+
+.global-page-container {
+	width: 100%;
+	display: inline-block;
+  margin: auto;
+  height: 100%;
+}
+
+
+.watch-slider {
+    padding: 80px 0 60px 0;
+    overflow: hidden;
+  
+  }
+
+  .arrow {
+    display: inline-block;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: center;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  
+  #arrow-prev {
+    background-image: url('../assets/arrow_prev.svg');
+  }
+  
+  #arrow-next {
+    background-image: url('../assets/arrow_next.svg');
+  }
+
+  .description {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    vertical-align: middle;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #3a3a3a;
+  
+  }
+
+  #quadro-price {
+    color: #ff5722;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 28px;
+  }
+
+  @media only screen and (min-width: 641px) and (max-width: 1023px) {
+    .watch-slider .slide {
+      width: 33%;
+    }
+  }
