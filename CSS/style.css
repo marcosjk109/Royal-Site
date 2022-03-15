@@ -313,7 +313,6 @@ background-color: #a044ff;
         animation: img 1s 0.8s forwards;
 }
 
-
 .global-page-container {
 	width: 100%;
 	display: inline-block;
@@ -370,7 +369,7 @@ background-color: #a044ff;
   vertical-align: middle;
   font-family: 'Georgia';
   font-size: 2rem;
-  color: #3a3a3a;
+  color: #000;
   margin-left: 6px;
   margin-top: -12rem;
 
@@ -383,6 +382,7 @@ background-color: #a044ff;
   margin-left: 15px;
   margin-top: -48px;
 }
+
 
 
 /* **********************************************************************************************
