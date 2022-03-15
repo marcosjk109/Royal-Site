@@ -323,52 +323,119 @@ background-color: #a044ff;
 
 
 .quadro-slide {
-    padding: 80px 0 60px 0;
-    overflow: hidden;
-  
-  }
+  padding: 50px 0 60px 0;
+  overflow: hidden;
 
-  .arrow {
-    display: inline-block;
-    margin: 0 10px;
-    margin-left: 21rem;
-    width: 60px;
-    height: 70px;
-    background-repeat: no-repeat;
-    background-size: 70% auto;
-    background-position: center;
-    cursor: pointer;
-    vertical-align: middle;
-  }
-  
-  #arrow-prev {
-    background-image: url('../assets/arrow_prev.svg');
-  }
-  
-  #arrow-next {
-    background-image: url('../assets/arrow_next.svg');
-  }
+}
 
-  .description {
-    display: inline-block;
-    height: 50px;
-    line-height: 50px;
-    width: 200px;
-    vertical-align: middle;
-    font-family: 'Gill Sans';
-    font-weight: 300;
-    color: #ff0edf;
-  }
+.quadro-slide .slide {
+  transform: scale(0.6);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  outline: none !important;
+}
 
-  #quadro-price {
-    color: #ff5722;
-    font-family: 'Gill Sans';
-    font-weight: 500;
-    font-size: 28px;
-  }
+.quadro-slider .slide.slick-center {
+  transform: scale(1);
+}
 
-  @media only screen and (min-width: 641px) and (max-width: 1023px) {
-    .quadro-slide .slide {
+.arrow {
+  display: inline-block;
+  margin: 0 10px;
+  margin-left: 19.5rem;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: center;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 14rem;
+}
+
+#arrow-prev {
+  background-image: url('../assets/arrow_prev.svg');
+}
+
+#arrow-next {
+  background-image: url('../assets/arrow_next.svg');
+}
+
+.description {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  width: 190px;
+  vertical-align: middle;
+  font-family: 'Georgia';
+  font-size: 2rem;
+  color: #3a3a3a;
+  margin-left: 329px;
+    margin-bottom: 3rem;
+
+}
+
+#quadro-price {
+  color: #ff5722;
+  font-family: 'Georgia';
+  font-weight: 200;
+  font-size: 28px;
+  margin-left: 612px;
+}
+
+
+/* **********************************************************************************************
+***********************************   MEDIA QUERIES   ******************************************* 
+********************************************************************************************** */
+
+/* Small Screens *****************************************************************************/
+
+  /*@media only screen and (max-width: 640px) {
+
+
+  }   
+*/
+/* End of small Screens*/
+
+
+
+/* Medium Screens ****************************************************************************/
+
+  /*@media only screen and (min-width: 641px) and (max-width: 1023px) {
+    .watch-slider .slide {
       width: 33%;
     }
   }
+*/
+/* End of Medium Screens*/
+
+
+
+
+/* Large Screens *****************************************************************************/
+
+  /*@media only screen and (min-width: 1024px) and (max-width: 1440px) { 
+      
+    .global-page-container {
+      width: 1024px;
+    }
+      
+  }
+
+/*   End of Large Screens*/
+
+
+
+/* Extra Large Screens ***********************************************************************/
+
+ /* @media only screen and (min-width: 1441px) {
+      
+    .global-page-container {
+      width: 1440px;
+    }
+            
+  }
+*/
+/* End of Extra Large Screens*/
