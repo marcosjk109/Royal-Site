@@ -330,8 +330,8 @@ background-color: #a044ff;
 
 .quadro-slide .slide {
   transform: scale(0.6);
-  transition: 0.3s;
-  -webkit-transition: 0.3s;
+  transition: 0.07s;
+  -webkit-transition: 0.2s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   outline: none !important;
@@ -344,15 +344,14 @@ background-color: #a044ff;
 .arrow {
   display: inline-block;
   margin: 0 10px;
-  margin-left: 19.5rem;
-  width: 50px;
-  height: 50px;
+  width: 39px;
+  height: 45px;
   background-repeat: no-repeat;
-  background-size: 80% auto;
+  background-size: 80% 80%;
   background-position: center;
   cursor: pointer;
   vertical-align: middle;
-  margin-left: 14rem;
+  margin-left: 2rem;
 }
 
 #arrow-prev {
@@ -372,17 +371,17 @@ background-color: #a044ff;
   font-family: 'Georgia';
   font-size: 2rem;
   color: #3a3a3a;
-  margin-left: 329px;
-    margin-bottom: 3rem;
+  margin-left: 6px;
+  margin-top: -12rem;
 
 }
 
 #quadro-price {
   color: #ff5722;
   font-family: 'Georgia';
-  font-weight: 200;
   font-size: 28px;
-  margin-left: 622px;
+  margin-left: 15px;
+  margin-top: -48px;
 }
 
 
@@ -437,5 +436,5 @@ background-color: #a044ff;
     }
             
   }
-*/
-/* End of Extra Large Screens*/
+
+/* End of Extra Large Screens
