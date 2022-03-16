@@ -11,6 +11,11 @@
 
 header .global-page-container{
     text-align: center;
+    width: 100%;
+    height: 150vh;
+    background-color: #FF0099;
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);
+    background: linear-gradient(to right, #493240, #FF0099);
 }
 
 :root{
@@ -369,14 +374,14 @@ background-color: #a044ff;
   vertical-align: middle;
   font-family: 'Georgia';
   font-size: 2rem;
-  color: #000;
+  color: #fff;
   margin-left: 6px;
   margin-top: -12rem;
 
 }
 
 #quadro-price {
-  color: #ff5722;
+  color: #fff;
   font-family: 'Georgia';
   font-size: 28px;
   margin-left: 15px;
