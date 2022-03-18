@@ -13,11 +13,11 @@ header .global-page-container{
     text-align: center;
     width: 100%;
     height: 150vh;
-    background-color: #FF0099;
-    background: -webkit-linear-gradient(to right, #493240, #FF0099);
-    background: linear-gradient(to right, #493240, #FF0099);
-    box-shadow: 0 10px rgba(0,0,0,0.8);
+    background: #e4406f;
+background: -webkit-linear-gradient(0deg, #e4406f 0%, #de1777 50%, #9c297f 100%);
+background: linear-gradient(0deg, #e4406f 0%, #de1777 50%, #9c297f 100%);
 }
+
 
 :root{
     --font-primary: "Georgia", serif;
@@ -281,7 +281,6 @@ background-color: #a044ff;
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
-    animation: zoom 25s;
 }
 
 .deigner-banner{
@@ -387,14 +386,26 @@ background-color: #a044ff;
 
 .contato-wrapper{
     width: 60%;
+    height: 30rem;
     display: flex;
 
 }
 
 .contato-left{
     width: 35%;
-    
+    background: linear-gradient(rgb(15 15 15 / 60%), rgb(22 22 22 / 90%))
+    ,url(/assets/Contato.jpg);
+    background-size: cover;
 }
+
+.contato-right{
+    width: 65%;
+    background-color: #FF0099;
+    background: -webkit-linear-gradient(to right, #803f67, #FF0099);
+    background: linear-gradient(to right, #924273, #FF0099);
+    padding: 3rem 10rem 10rem;
+}
+
 
 
 
