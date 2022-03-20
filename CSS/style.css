@@ -498,36 +498,41 @@ background-color: #a044ff;
 }
    
 
-/* **********************************************************************************************
-***********************************   MEDIA QUERIES   ******************************************* 
-********************************************************************************************** */
 
-/* Small Screens *****************************************************************************/
 
-  @media only screen and (max-width: 1480px) {
+
+  @media only screen and (max-width: 900px) {
+    .deigner-banner h1{
+        margin-left: -5rem;
+     }
+
+     .deigner-banner p{
+        font-size: 2rem;
+        word-break: normal;
+        margin-left: -11rem;
+        margin-right: 5rem;
+        
+    }
+
 
 
 
   }   
 
-/* End of small Screens*/
-
-
-
-/* Medium Screens ****************************************************************************/
-
+/
   @media only screen and (min-width: 641px) and (max-width: 1023px) {
     .quadro-slide .slide {
       width: 33%;
     }
+    
   }
 
-/* End of Medium Screens*/
 
 
 
 
-/* Large Screens *****************************************************************************/
+
+
 
   @media only screen and (min-width: 1024px) and (max-width: 1440px) { 
       
@@ -537,11 +542,12 @@ background-color: #a044ff;
       
   }
 
-/*   End of Large Screens*/
 
 
 
-/* Extra Large Screens ***********************************************************************/
+
+
+
 
   @media only screen and (min-width: 1441px) {
       
@@ -551,4 +557,3 @@ background-color: #a044ff;
             
   }
 
-/* End of Extra Large Screens
