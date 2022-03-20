@@ -563,6 +563,12 @@ background-color: #a044ff;
     .contato-right{
         padding: 1rem 12rem 7rem 3rem;
     }
+
+    .input-group textarea{
+        padding-top: 0.2rem;
+        max-width: 10rem;
+        max-height: 2rem;
+    }
         
      
 
