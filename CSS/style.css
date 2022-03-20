@@ -533,10 +533,23 @@ background-color: #a044ff;
 
 
 
+}
 
 
-        
+
+@media only screen and (max-width: 900px) {
+    .contato-right {
+        width: 80%;
     }
+
+    .sessao-contato h1 {
+        font-size: 2rem;
+    }
+        
+     
+
+
+}
 
 
 
