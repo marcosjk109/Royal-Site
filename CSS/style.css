@@ -147,6 +147,7 @@ header{
         left: -125px;
         opacity: 0;
         animation: img 1s 0.8s forwards;
+        border-radius: 4rem;
 }
 
 @keyframes img{
@@ -522,6 +523,15 @@ background-color: #a044ff;
         font-size: 3rem;
         margin-top: 5rem;
     }
+
+    .banner img{
+        width: 200px;
+        top: -150px;
+        left: 60px;
+        
+}
+
+
 
 
 
