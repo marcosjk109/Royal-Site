@@ -494,23 +494,23 @@ background-color: #a044ff;
 
 /* Small Screens *****************************************************************************/
 
-  /*@media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 640px) {
 
 
   }   
-*/
+
 /* End of small Screens*/
 
 
 
 /* Medium Screens ****************************************************************************/
 
-  /*@media only screen and (min-width: 641px) and (max-width: 1023px) {
-    .watch-slider .slide {
+  @media only screen and (min-width: 641px) and (max-width: 1023px) {
+    .quadro-slide .slide {
       width: 33%;
     }
   }
-*/
+
 /* End of Medium Screens*/
 
 
@@ -518,7 +518,7 @@ background-color: #a044ff;
 
 /* Large Screens *****************************************************************************/
 
-  /*@media only screen and (min-width: 1024px) and (max-width: 1440px) { 
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) { 
       
     .global-page-container {
       width: 1024px;
@@ -532,7 +532,7 @@ background-color: #a044ff;
 
 /* Extra Large Screens ***********************************************************************/
 
- /* @media only screen and (min-width: 1441px) {
+  @media only screen and (min-width: 1441px) {
       
     .global-page-container {
       width: 1440px;
