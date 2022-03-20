@@ -338,11 +338,11 @@ background-color: #a044ff;
   width: 39px;
   height: 45px;
   background-repeat: no-repeat;
-  background-size: 80% 80%;
+  background-size: 60% 80%;
   background-position: center;
   cursor: pointer;
   vertical-align: middle;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 #arrow-prev {
