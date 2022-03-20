@@ -346,11 +346,15 @@ background-color: #a044ff;
 }
 
 #arrow-prev {
-  background-image: url('../assets/arrow_prev.svg');
+    background-color: #f8f8f8;
+    border-radius: 0.4rem;
+    background-image: url('../assets/arrow_prev.svg');
 }
 
 #arrow-next {
-  background-image: url('../assets/arrow_next.svg');
+    background-color: #f8f8f8;
+    border-radius: 0.4rem;
+    background-image: url('../assets/arrow_next.svg');
 }
 
 .description {
@@ -403,15 +407,16 @@ background-color: #a044ff;
     width: 65%;
     background-color: #FF0099;
     background: -webkit-linear-gradient(to right, #803f67, #FF0099);
-    background: linear-gradient(to right, #924273, #FF0099);
+    background: linear-gradient(to right, #e97e7e, #ff089cd4, #eb2058);
     padding: 1rem 3rem 3rem 3rem;
+    opacity: 0.9;
 }
 
 .sessao-contato h1{
     width: 100%;
     text-align: center;
     font-family: var(--font-primary);
-    color: #000;
+    color: rgb(10, 10, 10);
     font-size: 3rem;
     font-weight: lighter;
 }
@@ -430,6 +435,8 @@ background-color: #a044ff;
 
 .input-group textarea{
     padding-top: 0.5rem;
+    max-width: 25rem;
+    max-height: 5rem;
 }
 
 .field{
@@ -438,7 +445,7 @@ background-color: #a044ff;
     width: 20rem;
     font-size: 1.5rem;
     font-family: var(--font-secundary);
-    border-bottom: 1px dashed #636363;
+    border-bottom: 1px dashed #f8f8f8;
     height: 3rem;
     outline: none;
     margin: 2rem 0;
@@ -452,6 +459,7 @@ background-color: #a044ff;
     font-family: var(--font-secundary);
     text-transform: uppercase;
     transition: all 1.3s;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -460,7 +468,25 @@ background-color: #a044ff;
     font-size: 1rem;
 }
 
+.field:focus{
+    border-bottom: 1px solid;
 
+}
+
+.btn-submit{
+    width: 8rem;
+    height: 2.5rem;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+    color: #fff;
+    background: #5749cf;
+    background: -webkit-linear-gradient(to right, #301b2a, #ec38bc, #7303c0, #03001e);  
+    background: linear-gradient(to right, #f386d4, #ec38bc, #7303c0, #6050f3);
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, 0.4);
+}
+   
 
 /* **********************************************************************************************
 ***********************************   MEDIA QUERIES   ******************************************* 
