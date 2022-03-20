@@ -546,6 +546,10 @@ background-color: #a044ff;
     .contato-left{
         width: 0;
     }
+
+    .sessao-contato{
+        height: 125vh;
+    }
     .sessao-contato h1 {
         font-size: 2rem;
         margin-left: 4rem;
