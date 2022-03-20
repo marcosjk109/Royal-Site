@@ -496,7 +496,8 @@ background-color: #a044ff;
 /* Small Screens *****************************************************************************/
 
   @media only screen and (max-width: 1480px) {
-      
+      .container
+
 
   }   
 
