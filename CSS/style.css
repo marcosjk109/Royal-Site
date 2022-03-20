@@ -548,6 +548,13 @@ background-color: #a044ff;
     .sessao-contato h1 {
         font-size: 2rem;
     }
+    .field{
+        width: 16rem;
+
+    }
+    .contato-right{
+        padding: 1rem 12rem 3rem 3rem;
+    }
         
      
 
