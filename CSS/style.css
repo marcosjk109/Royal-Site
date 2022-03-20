@@ -539,7 +539,7 @@ background-color: #a044ff;
 
 @media only screen and (max-width: 900px) {
     .contato-right {
-        width: 80%;
+        width: 100%;
     }
 
     .sessao-contato h1 {
