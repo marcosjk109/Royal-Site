@@ -541,23 +541,27 @@ background-color: #a044ff;
     .contato-right {
         width: 50%;
         margin-left: -4rem;
+        height: 100%;
     }
     .contato-left{
         width: 0;
     }
     .sessao-contato h1 {
         font-size: 2rem;
+        margin-left: 4rem;
     }
     .field{
         width: 9rem;
+        height: 6.5rem;
 
     }
     .field-label{
         font-size: 1rem;
+        top: 5rem;
 
     }
     .contato-right{
-        padding: 1rem 12rem 3rem 3rem;
+        padding: 1rem 12rem 7rem 3rem;
     }
         
      
